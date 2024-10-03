@@ -1,0 +1,9 @@
+BEGIN{
+	a = 0;
+	b = 2;
+	if (a < b) {
+		print("a < b");
+	} else {
+		print("else statement");
+	}
+}

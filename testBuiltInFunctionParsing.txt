@@ -1,0 +1,8 @@
+BEGIN {
+	print "hello world";
+	printf "hello";
+	print getline $0;
+	nextfile;
+	next;
+	exit 1;
+}
